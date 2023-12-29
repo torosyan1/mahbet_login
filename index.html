@@ -54,7 +54,7 @@
 
     const query = JSON.stringify(Telegram.WebView.initParams.tgWebAppData)
     const userId = getUserId(Telegram.WebView.initParams.tgWebAppData);
-    const id = userId ? 'https://mahbet.com/links/?action=login/?tel_id=' + userId : 'https://mahbet.com/links/?action=login';
+    const id = userId ? 'https://mahbet.com/links/?action=login?tel_id=' + userId : 'https://mahbet.com/links/?action=login';
     const exampleImg  = document.getElementById("qwerty");
     exampleImg.setAttribute("src", id);
 
